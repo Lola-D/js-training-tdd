@@ -9,11 +9,12 @@
 
 // Your code:
 const repeat = (s, n) => {
+        let t = ''
         while (n > 0) {
-            let t = s.push()
+            t += s
             n--
         }
-        return t.join('')
+        return t
     }
     //* Begin of tests
 const assert = require('assert');

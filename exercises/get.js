@@ -16,9 +16,7 @@ const sourceObject = {
 };
 
 // Your code:
-const get = (sourceObject) => {
-        return sourceObject.k.v
-    }
+const get = (k) => { return sourceObject[k] }
     //* Begin of tests
 const assert = require('assert');
 

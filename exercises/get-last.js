@@ -9,8 +9,14 @@
 
 // Your code:
 const getLast = (a) => {
-        let last = a.pop()
-        return last
+        let last = 0
+        if (a === undefined) {
+            return undefined
+        } else if (typeof a === 'string') {
+            return last = a.slice(-1)
+        } else {
+            return last = a.pop()
+        }
     }
     //* Begin of tests
 const assert = require('assert');
