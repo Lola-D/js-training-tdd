@@ -11,7 +11,13 @@
  */
 
 // Your code:
+const jadenCase = (s) => {
+    let t = s.split(' ')
+    t[2][0].toUpperCase() + t[2].slice(1)
+    return .
+}
 
+//return s[0].toUpperCase() + s.slice(1).toLowerCase()
 //* Begin of tests
 const assert = require('assert');
 

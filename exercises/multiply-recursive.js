@@ -10,8 +10,15 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const multiply = (a, b) => {
+        let total = 0
+        if (b > 0) {
+            total += a
+            multiply(a, b + 1)
+        }
+        return total
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof multiply, 'function');

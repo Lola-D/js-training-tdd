@@ -9,8 +9,22 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const multiply = (a, b) => {
+        let total = 0
+        if (b > 0) {
+            while (b > 0) {
+                total += a
+                b--
+            }
+        } else {
+            while (b < 0) {
+                total -= a
+                b++
+            }
+        }
+        return total
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof multiply, 'function');

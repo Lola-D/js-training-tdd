@@ -11,8 +11,16 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const sign = (n) => {
+        if (n > 0) {
+            return 1
+        } else if (n < 0) {
+            return -1
+        } else {
+            return 0
+        }
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof sign, 'function');

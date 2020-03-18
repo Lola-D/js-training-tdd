@@ -13,8 +13,8 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const keepFirst = (s) => {}
+    //* Begin of tests
 const assert = require('assert');
 
 assert.fail('You must write your own tests');

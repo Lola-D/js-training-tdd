@@ -8,8 +8,10 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const capitalize = (s) => {
+        return s[0].toUpperCase() + s.slice(1).toLowerCase()
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof capitalize, 'function');

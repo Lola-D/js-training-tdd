@@ -8,8 +8,14 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const repeat = (s, n) => {
+        while (n > 0) {
+            let t = s.push()
+            n--
+        }
+        return t.join('')
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof repeat, 'function');

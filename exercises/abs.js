@@ -10,8 +10,14 @@
  */
 
 // Your code:
-
-//* Begin of tests
+const abs = (number) => {
+        if (number < 0) {
+            return -number
+        } else {
+            return number
+        }
+    }
+    //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof abs, 'function');
