@@ -12,14 +12,16 @@
 
 // Your code:
 const jadenCase = (s) => {
-    let t = s.split(' ')
-    t[2][0].toUpperCase() + t[2].slice(1)
-    return .
+    return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 //return s[0].toUpperCase() + s.slice(1).toLowerCase()
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+//assert.fail('You must write your own tests');
+assert.strictEqual(typeof jadenCase, 'function');
+assert.strictEqual(keepFirst('Je passe une bonne journée.'), 'Je Passe Une Bonne Journée.');
+assert.strictEqual(keepLast("C'est chiant d'être confiné."), "C'est Chiant D'être Confiné.");
+
 // End of tests */

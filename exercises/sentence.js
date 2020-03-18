@@ -7,8 +7,8 @@
  */
 
 // Your code:
-const sentence = (a) => { return a.toString().replace(/,/g, ' ') }
-    //* Begin of tests
+//const sentence = (a) => { return a.toString().replace(/,/g, ' ') }
+//* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof sentence, 'function');

@@ -8,8 +8,11 @@
  */
 
 // Your code:
-const circular = { circular: 'circular' }
-    //* Begin of tests
+const circular = {
+    circular: 'sqdqdqd'
+}
+
+//* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof circular, 'object');
