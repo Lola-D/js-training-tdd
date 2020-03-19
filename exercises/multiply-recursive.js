@@ -13,10 +13,14 @@
 const multiply = (x, y) => {
         if (y > 0) {
             return (x + multiply(x, y - 1))
+        } else if (x === 0 && y < 0) {
+            return multiply(x, -y)
         } else if (y < 0) {
             return -multiply(x, -y)
         }
         return 0
+
+
 
 
     }
