@@ -10,13 +10,15 @@
  */
 
 // Your code:
-const multiply = (a, b) => {
-        let total = 0
-        if (b > 0) {
-            total += a
-            multiply(a, b + 1)
+const multiply = (x, y) => {
+        if (y > 0) {
+            return (x + multiply(x, y - 1))
+        } else if (y < 0) {
+            return -multiply(x, -y)
         }
-        return total
+        return 0
+
+
     }
     //* Begin of tests
 const assert = require('assert');
